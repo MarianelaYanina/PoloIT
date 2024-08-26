@@ -1,0 +1,66 @@
+:root{
+    --colorFuenteArribaAbajo:aliceblue;
+    --colorFuenteMedio: black;
+    --colorFondo:white;
+    --colorFooterHeader:black;
+    --tipoDeLetra:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --tamaño:1rem;
+}
+
+
+*{
+    margin: 0%;
+    padding-left: 1px;
+    padding-right: 1px;
+    font-family: var(--tipoDeLetra);
+    font-size: var(--tamaño);
+}
+
+
+
+body{
+    background-color:var(--colorFondo);
+    color:var(--colorFuenteMedio);
+}
+
+header{
+    align-items: stretch;
+}
+
+.btn-close{
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+h1{
+    text-align: center;
+    color:var(--colorFuenteMedio);
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+     background-color:var(--colorFooterHeader);
+     text-align: center;
+  }
+
+a{
+    color:var(--colorFuenteArribaAbajo);
+    text-decoration: none;
+}
+
+a:hover{
+    color:darkgrey;
+}
+
+
+
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
